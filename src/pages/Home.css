@@ -1,0 +1,25 @@
+.home-cotainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.filters input, .filters select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid black;
+    width:200px
+}
+.product-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+}

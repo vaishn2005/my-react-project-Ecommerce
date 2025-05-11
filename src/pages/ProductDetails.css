@@ -1,0 +1,16 @@
+.product-details {
+    display: flex;
+    flex: warp;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-details img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
