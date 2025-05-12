@@ -1,25 +1,44 @@
-.home-cotainer {
-    padding: 2rem;
-    max-width: 1200px;
-    margin: auto;
+.home-container {
+    padding: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f7f7;
+    color: #111;
+}
+
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .filters {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
-.filters input, .filters select {
-    padding: 0.5rem;
+.filters input,
+.filters select {
+    padding: 10px 15px;
     font-size: 1rem;
+    border: 1px solid #ccc;
     border-radius: 6px;
-    border: 1px solid black;
-    width:200px
+    min-width: 250px;
+    background-color: white;
 }
+
+.filters input:focus,
+.filters select:focus {
+    outline: none;
+    border-color: rebeccapurple;
+    box-shadow: 0 0 5px rgba(102, 51, 153, 0.4);
+}
+
 .product-grid {
     display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 10px;
 }

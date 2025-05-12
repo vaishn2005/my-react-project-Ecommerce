@@ -1,107 +1,88 @@
-import product1 from "../assets/images/images3.jpg";
-import product2 from "../assets/images/img1.webp";
-import product3 from "../assets/images/img2.webp";
-import product4 from "../assets/images/img4.jpg";
-import product5 from "../assets/images/img5.webp";
+import product1 from "../assets/images/images3.png";
+import product2 from "../assets/images/im1.png";
+import product3 from "../assets/images/im1.png";
+import product4 from "../assets/images/image4.png";
+import product5 from "../assets/images/img5.png";
 
 export const products = [
-    {
-        id: 1,
-        name: "u s polo",
-        category: "shoes",
-        price: 2499,
-        description: "Trendy and comfortable shoes for daily wear.",
-        image:product1
-
-    },
-
-    {
-        id: 2,
-        name: "Shoes",
-        category: "Fashion",
-        price: 799,
-        description: "Trendy T-shirt",
-        image:product2
-
-    },
-
-    {
-        id: 3,
-        name: "T-shirt",
-        category: "Electronics",
-        price: 1499,
-        description: "wireless headphones with noise",
-        image:product3
-
-    },
-
-    {
-        id: 4,
-        name: "Jacket",
-        category: "Fashion",
-        price: 1299,
-        description: "premium qyality jaket for winter",
-        image:product4
-
-    },
-
-    {
-        id: 5,
-        name: "black hat",
-        category: "Fashion",
-        price: 499,
-        description: "premium quality hat",
-        image:product5
-
-    },
-    {
-        id: 5,
-        name: "Green hat",
-        category: "Fashion",
-        price: 499,
-        description: "premium quality hat",
-        image:product5
-
-    },
-
-    {
-        id: 4,
-        name: "Jacket",
-        category: "Fashion",
-        price: 1299,
-        description: "premium qyality jaket for winter",
-        image:product4
-
-    },
-
-    {
-        id: 3,
-        name: "T-shirt",
-        category: "Electronics",
-        price: 1499,
-        description: "wireless headphones with noise",
-        image:product3
-
-    },
-    {
-        id: 2,
-        name: "Shoes",
-        category: "Fashion",
-        price: 799,
-        description: "Trendy T-shirt",
-        image:product2
-
-    },
-    {
-        id: 1,
-        name: "red",
-        category: "shoes",
-        price: 2499,
-        description: "Trendy and comfortable shoes for daily wear.",
-        image:product1
-
-    },
-
-
-
+  {
+    id: 1,
+    name: "Velocity Sneakers",
+    category: "Footwear",
+    price: 2499,
+    description: "Sleek running sneakers designed for all-day comfort.",
+    image: product1,
+  },
+  {
+    id: 2,
+    name: "Urban Tee",
+    category: "Clothing",
+    price: 799,
+    description: "Minimalist cotton t-shirt with a modern streetwear vibe.",
+    image: product2,
+  },
+  {
+    id: 3,
+    name: "EchoPulse Headphones",
+    category: "Electronics",
+    price: 1499,
+    description: "Wireless headphones with deep bass and noise isolation.",
+    image: product3,
+  },
+  {
+    id: 4,
+    name: "Frostbite Jacket",
+    category: "Clothing",
+    price: 1299,
+    description: "Windproof, insulated winter jacket for extreme cold.",
+    image: product4,
+  },
+  {
+    id: 5,
+    name: "Shadow Cap",
+    category: "Accessories",
+    price: 499,
+    description: "Stylish black cap with adjustable fit and breathable fabric.",
+    image: product5,
+  },
+  {
+    id: 6,
+    name: "Olive Ridge Cap",
+    category: "Accessories",
+    price: 499,
+    description: "Durable olive-green hat perfect for outdoor activities.",
+    image: product5,
+  },
+  {
+    id: 7,
+    name: "Arctic Shield Jacket",
+    category: "Clothing",
+    price: 1299,
+    description: "High-quality insulated jacket for chilly days.",
+    image: product4,
+  },
+  {
+    id: 8,
+    name: "BassCore Headphones",
+    category: "Electronics",
+    price: 1499,
+    description: "Over-ear headphones built for deep sound and comfort.",
+    image: product3,
+  },
+  {
+    id: 9,
+    name: "Street Runner Shoes",
+    category: "Footwear",
+    price: 799,
+    description: "Lightweight shoes built for casual comfort and walking.",
+    image: product2,
+  },
+  {
+    id: 10,
+    name: "Crimson Kicks",
+    category: "Footwear",
+    price: 2499,
+    description: "Bold red sneakers that combine style and performance.",
+    image: product1,
+  },
 ];
