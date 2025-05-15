@@ -1,8 +1,15 @@
-import product1 from "../assets/images/images3.png";
-import product2 from "../assets/images/im1.png";
-import product3 from "../assets/images/im1.png";
-import product4 from "../assets/images/image4.png";
-import product5 from "../assets/images/img5.png";
+import product1 from "../assets/images/velocitysneakers.png";
+import product2 from "../assets/images/urban tee.png";
+import product3 from "../assets/images/headphone.png";
+import product4 from "../assets/images/arcticshield.png";
+import product5 from "../assets/images/shadow cap.png";
+import product6 from "../assets/images/olive ridge cap.png";
+import product7 from "../assets/images/basscore.png";
+import product8 from "../assets/images/streetrunnershoes.png";
+import product9 from "../assets/images/crimsonkicks.png";
+
+
+
 
 export const products = [
   {
@@ -23,7 +30,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "EchoPulse Headphones",
+    name: "Kod Headphones",
     category: "Electronics",
     price: 1499,
     description: "Wireless headphones with deep bass and noise isolation.",
@@ -51,7 +58,7 @@ export const products = [
     category: "Accessories",
     price: 499,
     description: "Durable olive-green hat perfect for outdoor activities.",
-    image: product5,
+    image: product6,
   },
   {
     id: 7,
@@ -67,7 +74,7 @@ export const products = [
     category: "Electronics",
     price: 1499,
     description: "Over-ear headphones built for deep sound and comfort.",
-    image: product3,
+    image: product7,
   },
   {
     id: 9,
@@ -75,7 +82,7 @@ export const products = [
     category: "Footwear",
     price: 799,
     description: "Lightweight shoes built for casual comfort and walking.",
-    image: product2,
+    image: product8,
   },
   {
     id: 10,
@@ -83,6 +90,6 @@ export const products = [
     category: "Footwear",
     price: 2499,
     description: "Bold red sneakers that combine style and performance.",
-    image: product1,
+    image: product9,
   },
 ];

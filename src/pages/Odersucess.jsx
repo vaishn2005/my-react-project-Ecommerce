@@ -6,7 +6,7 @@ export default function Ordersuccess() {
 
     useEffect(() => {
         clearCart();
-    }, []);
+    }, [clearCart]);
 
     const styles = {
         container: {
@@ -16,30 +16,38 @@ export default function Ordersuccess() {
             alignItems: "center",
             height: "100vh",
             textAlign: "center",
-            backgroundColor: "#f5f5f5",
+            backgroundColor: "#1a1a2e", // Dark background for contrast
             padding: "20px",
-            fontFamily: "'Segoe UI', sans-serif"
+            fontFamily: "'Segoe UI', sans-serif",
+            color: "#fff", // Light text color for better contrast
         },
         title: {
-            fontSize: "2.5rem",
-            color: "#4CAF50",
-            marginBottom: "20px"
+            fontSize: "3rem",
+            color: "#FF007F", // Neon Pink
+            marginBottom: "20px",
+            textShadow: "0 0 15px #FF007F", // Glowing effect
         },
         message: {
             fontSize: "1.2rem",
-            color: "#333",
-            marginBottom: "30px"
+            color: "#ccc", // Soft gray for the message
+            marginBottom: "30px",
+            textShadow: "0 0 10px #FF007F", // Glowing pink text shadow
         },
         button: {
-            padding: "12px 25px",
-            fontSize: "1rem",
-            backgroundColor: "#4CAF50",
+            padding: "14px 30px",
+            fontSize: "1.1rem",
+            backgroundColor: "#00FF7F", // Neon Green
             color: "#fff",
             border: "none",
-            borderRadius: "6px",
+            borderRadius: "8px",
             cursor: "pointer",
-            transition: "background 0.3s ease",
-            textDecoration: "none"
+            transition: "all 0.3s ease",
+            boxShadow: "0 0 15px #00FF7F, 0 0 40px #00FF7F", // Glowing button effect
+            textDecoration: "none",
+        },
+        buttonHover: {
+            backgroundColor: "#FF007F", // Neon Pink on hover
+            boxShadow: "0 0 15px #FF007F, 0 0 45px #FF007F",
         }
     };
 
@@ -47,7 +55,14 @@ export default function Ordersuccess() {
         <div style={styles.container}>
             <h1 style={styles.title}>🎉 Order Placed Successfully!</h1>
             <p style={styles.message}>Thank you for shopping with us.</p>
-            <a href="/" style={styles.button}>Go to Home</a>
+            <a
+                href="/"
+                style={styles.button}
+                onMouseOver={(e) => Object.assign(e.target.style, styles.buttonHover)}
+                onMouseOut={(e) => Object.assign(e.target.style, styles.button)}
+            >
+                Go to Home
+            </a>
         </div>
     );
 }
